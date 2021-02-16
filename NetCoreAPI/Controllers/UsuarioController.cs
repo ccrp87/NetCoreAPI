@@ -42,7 +42,7 @@ namespace NetCoreAPI.Controllers
             return usuario;
         }
 
-        // POST: api/Usuario
+        // POST: api/Login
         [HttpPost("login")]
         public async Task<ActionResult<Usuario>> GetLoginUsuario(Login login)
         {
